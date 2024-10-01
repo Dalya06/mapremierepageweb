@@ -1,5 +1,14 @@
-h1{
-  color:blue
+.mabordure{border: solid 3px red; border-top: 3px red double;
+  border-right: 3px;
+    padding: 30px;
+    background-color: green;
+    border: solid red;
+    border-top: 3px red double;
+    border-right: 35px pink;
+    border-bottom: 25px; color: gold;
+    border-left: 5px; color: chartreuse;
+    border-radius: 10px 10px 10px;
+  color:blue;
 }
 P {
     color: red;
@@ -10,11 +19,7 @@ li{color: blueviolet;
 .Formationnumérique{color: brown;
 
 }
-.maclasse{font-size: 3.5em; font-family: Montserrat; color: #A5B4FC; }
-.Dalya{font-size: 1.1em; font-family: Manrope;color: black; }
-h1{font-style: italic}
-.Youssouf{font-size: 1em; font-family: Manrope; color: black;}
-.Gouvernement{font-size: 1em; font-family: Manrope; color: black; text-decoration: none;}
+
 
 
 
