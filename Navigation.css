@@ -39,3 +39,47 @@ div{
 .l{ color:violet; }
 .y{ color:lightpink; }
 .a{ display:inline-block;transform:rotate(-20deg); }
+.logo{
+    width: 300px;
+    height: 300px;
+}
+.image{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+}
+.vetement{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+}
+.Chambre{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+}
+.Accesoires{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+}
+.Valise{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+}
+/* .div{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    height: 300px;
+
+}
+.div img{
+    height: 100%;
+} */
+ footer{
+    padding: 30px;
+    background-color: black;
+}
+
