@@ -1,0 +1,41 @@
+nav{
+    padding: 30px;
+    background-color: black;
+    border-bottom: 10px solid; color:violet;
+    border-right: 10px solid; color: violet;
+    border-left: 10px solid; color:violet;
+    border-top: 10px solid; color: violet;
+
+
+}
+a{  
+    color:hotpink;
+    font-size: x-large; 
+
+ }
+.Formationnumérique{
+    color:hotpink;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+   }
+p{
+    color: hotpink;
+    font-size: 20px;
+    text-align: center;
+}
+li{
+    display: inline-block; 
+    margin: 20px;
+}
+html{
+    background-color: hotpink;
+}
+div{
+    border-bottom: 1px solid; color: violet;
+}
+.d{ color:honeydew; }
+.a{ color:grey; }
+.l{ color:violet; }
+.y{ color:lightpink; }
+.a{ display:inline-block;transform:rotate(-20deg); }
