@@ -1,26 +1,69 @@
 <html>
     <head>
         <title>Formulaire</title>
+        <link rel="stylesheet" href="Formulaire.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap" rel="stylesheet">
     </head>
 </html>
-
     <body>
-        <h4>Mon formulaire</h4>
+        <h4>Je m'inscris</h4>
         <!--Mon formulaire-->
-        <from> <!--La balise from permet de créer mon formulaire-->
+        <form class="Questionnaire"> <!--La balise from permet de créer mon formulaire-->
         <p>Ceci et mon formulaire.</p>
+        <div class="container"></div>
         <p>
-            <label>Prénom:</label>
             <input type="text" name="prenom" placeholder="Votre prénom"/>
         </p>
         <p>
-            <label>Projet professionnel:</label>
-            <textarea name="projet"></textarea> 
+            <input type="text" name="nom" placeholder="Votre nom"/>
         </p>
-
         <p>
+            <label>Date:</label>
             <input type="date"/>
         </p>
-    </from>
+        <p>
+            
+            <input type="email" name="email" placeholder="Email">
+        </p>
+        <p>
+            <input type="motdepasse" name="motdepasse" placeholder="motdepasse">
+        </p>
+        <p>
+            <input type="submit" value="Envoyer" />
+        </p>
+        <br><br><br>
+        <h2>La geographie</h2>
+        <br><br>
+        <p>
+        </form>
+            <form>
+            <label>Quel est la Capitale de la Croatie?</label>
+        </p>
+        <p>
+            <label>Zagreb</label>
+            <input type="radio" name="dog">
+            <br>
+            <label>Bratislava</label>
+            <input type="radio" name="dog">
+            <br>
+            <label>Groznyï</label>
+            <input type="radio" name="dog">
+        </p>
+        <p>
+            <label>Combien y a t'il de pays dans le contenu europeen?</label>
+        </p>
+        <p>
+            <label>30</label>
+            <input type="radio" name="dog">
+            <br>
+            <label>16</label>
+            <input type="radio" name="dog">
+            <br>
+            <label>27</label>
+            <input type="radio" name="dog">
+        </p>
+    </form>
     </body>
 </html>
